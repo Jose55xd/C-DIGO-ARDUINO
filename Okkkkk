@@ -1,0 +1,15 @@
+```python
+# Inicializamos los primeros dos números de la serie
+a, b = 0, 1
+
+# Definimos la cantidad de términos de la serie que queremos imprimir
+n = 13
+
+# Imprimimos el primer término
+print(a)
+
+# Iteramos para imprimir los siguientes términos
+for i in range(n - 1):
+    a, b = b, a + b
+    print(a)
+```
